@@ -1,0 +1,203 @@
+body {
+    background-color: #f4e9dc;
+    color: black;
+    font-family: Georgia, serif;
+    text-align: center;
+    margin: 0;
+}
+
+
+
+.slide {
+    display: none;
+    min-height: 100vh;
+    padding: 25px;
+}
+
+.active {
+    display: block;
+}
+
+
+
+.home {
+    border: 3px solid black;
+    min-height: 90vh;
+    padding: 100px 20px;
+    margin: 10px;
+}
+
+.home h1 {
+    font-size: 55px;
+    font-weight: bold;
+    margin: 25px;
+}
+
+.home h5 {
+    letter-spacing: 3px;
+    color: #603c49;
+}
+
+.home h4 {
+    margin: 30px;
+}
+
+button {
+    background-color: #603c49;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    padding: 15px 35px;
+    font-size: 20px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #432a34;
+}
+
+.back {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    padding: 8px 18px;
+    font-size: 16px;
+}
+
+
+.country {
+    cursor: pointer;
+    padding: 15px;
+}
+
+.country img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.country h2 {
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.country:hover {
+    transform: scale(1.03);
+}
+
+/* Introduction Pages */
+
+.main-img {
+    width: 100%;
+    height: 550px;
+    object-fit: cover;
+    border-radius: 25px;
+    margin-top: 15px;
+}
+
+.small-img {
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+#slide3 h2,
+#slide5 h2,
+#slide7 h2 {
+    margin-top: 15px;
+}
+
+
+#slide4 img,
+#slide6 img,
+#slide8 img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+#slide4 h2,
+#slide6 h2,
+#slide8 h2 {
+    margin-top: 20px;
+    color: #603c49;
+    font-weight: bold;
+}
+
+.ending {
+    font-size: 20px;
+    font-style: italic;
+    margin-top: 25px;
+}
+
+.final-page {
+    padding-top: 50px;
+}
+
+.final-page img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+.final-page h2 {
+    margin-top: 15px;
+}
+
+.thankyou {
+    margin-top: 60px;
+    font-weight: bold;
+}
+
+.final-page h4 {
+    color: #603c49;
+    font-style: italic;
+    margin-top: 20px;
+}
+
+.final-page p {
+    font-size: 22px;
+    color: #b9a99c;
+    margin-top: 25px;
+}
+
+
+
+@media(max-width: 768px) {
+
+    .home {
+        padding: 60px 10px;
+    }
+
+    .home h1 {
+        font-size: 32px;
+    }
+
+    .main-img {
+        height: 300px;
+    }
+
+    .country img {
+        height: 250px;
+    }
+
+    #slide4 img,
+    #slide6 img,
+    #slide8 img {
+        height: 220px;
+        margin-top: 15px;
+    }
+
+    .back {
+        position: relative;
+        display: block;
+        margin-bottom: 20px;
+    }
+
+}
